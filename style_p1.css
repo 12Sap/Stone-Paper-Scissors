@@ -1,0 +1,71 @@
+header {
+ font-size: 2.5rem;
+ text-align: center;
+ text-decoration: dashed underline;
+}
+
+.gameBox {
+ width: 100vw;
+ height: 50rem;
+ border: 2px solid black;
+ margin: 0;
+}
+
+.choices{
+ width: 100vw;
+ height: 20rem;
+ display: flex;
+ justify-content: space-around;
+}
+
+.selOption {
+ display: inline-block;
+ height: 10rem;
+ width: 10rem;
+ margin: 5px;
+}
+
+img{
+ height: 225px;
+ width: 225px;
+ margin-top: 1rem;
+}
+
+.score{
+ text-align: center;
+ height: 5vh;
+ width: 45vw;
+ border: 5px solid blue;
+ font-size: 2rem;
+ font-weight: bold;
+ display: flex;
+ justify-content: space-evenly;
+ margin-left: 15rem;
+ margin-top: 3rem;
+}
+
+.userScore{
+ display: flex;
+ align-items: flex-start;
+}
+
+.compScore{
+ display: flex;
+ align-items: flex-start;
+}
+
+.message{
+ border: 3px solid black;
+ background-color: #003F85;
+ border-radius: 5%;
+ height: 3.5rem;
+ width: 25rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color : white;
+ font-size: 1.35rem;
+ font-weight: bold;
+ margin: 50px;
+ margin-left: 16rem;
+}
